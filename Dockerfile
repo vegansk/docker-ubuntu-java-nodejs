@@ -5,7 +5,8 @@ MAINTAINER Anatoly Galiulin <galiulin.anatoly@gmail.com>
 RUN apt-get update
 RUN apt-get install -y \
   curl \
-  openjdk-8-jdk
+  openjdk-8-jdk \
+  git
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash
 RUN apt-get install -y nodejs
 
