@@ -6,7 +6,8 @@ RUN apt-get update
 RUN apt-get install -y \
   curl \
   openjdk-8-jdk \
-  git
+  git \
+  postgresql-client
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash
 RUN apt-get install -y nodejs
 
