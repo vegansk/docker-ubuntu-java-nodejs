@@ -8,7 +8,7 @@ RUN apt-get install -y \
   openjdk-8-jdk \
   git \
   postgresql-client
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash
 RUN apt-get install -y nodejs
 
 RUN export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
