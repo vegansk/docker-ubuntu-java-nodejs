@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-docker build -t vegansk/ubuntu-java-nodejs:1.1 .
+docker build -t vegansk/ubuntu-java-nodejs:1.2 .
 
