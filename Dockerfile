@@ -15,5 +15,6 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt-get update
 RUN apt-get install -y yarn
 RUN apt-get install -y bzip2
+RUN npm i -g lerna
 RUN export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
